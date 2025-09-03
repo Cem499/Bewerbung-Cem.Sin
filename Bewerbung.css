@@ -6,7 +6,7 @@ background-color: rgb(198, 228, 238);
     width: 700px;
     height: 880px;
     border-radius: 50px ;
-    box-shadow:  10px 10px 20px rgb(255, 255, 255);
+    box-shadow:  10px 10px 20px lightslategrey;
     padding: 40px 75px 0 75px;
     margin: auto;
     background-color: rgb(241, 235, 235);
@@ -104,3 +104,4 @@ color: black;
         border: solid 2px black;
         box-shadow:  10px 10px 20px lightslategray;
     }
+
