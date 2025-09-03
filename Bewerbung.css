@@ -29,6 +29,7 @@ color: black;
     object-fit: cover;
     display: block;
     margin: 0 0 0 auto;
+    box-shadow:  10px 10px 20px lightslategray;
 }
 
 
@@ -51,6 +52,7 @@ color: black;
     color: black;
     text-decoration: none;
     border: solid 2px black;
+    box-shadow:  10px 10px 20px lightslategray;
 }
 
 .Motivationsschreiben{
@@ -62,6 +64,7 @@ color: black;
     color: black;
     text-decoration: none;
     border: solid 2px black;
+    box-shadow:  10px 10px 20px lightslategray;
 }
 
 .Zeugnisse-Sekundarstufe{
@@ -73,6 +76,31 @@ color: black;
     color: black;
     text-decoration: none;
     border: solid 2px black;
+    box-shadow:  10px 10px 20px lightslategray;
 }
 
 
+.Stellwerktest{
+    background-color: rgb(198, 228, 238);
+    font-size: 25px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border: solid 2px black;
+    box-shadow:  10px 10px 20px lightslategray;
+    }
+
+
+ .Multicheck{
+        background-color: rgb(198, 228, 238);
+        font-size: 25px;
+        border-radius: 10px;
+        margin: auto;
+        padding: 5px;
+        color: black;
+        text-decoration: none;
+        border: solid 2px black;
+        box-shadow:  10px 10px 20px lightslategray;
+    }
