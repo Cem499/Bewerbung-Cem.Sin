@@ -36,97 +36,60 @@ color: black;
 .Zeugnisse-Sekundarstufe,
 .Stellwerktest,
 .Multicheck {
-  display: block;
-  margin-bottom: 15px;
+  display: block;          
+  width: 400px;
+  background-color: rgb(198, 228, 238);
+  font-size: 25px;
+  border-radius: 10px;
+  margin: auto 0 25px 0;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  border: solid 2px black;
+  box-shadow:  10px 10px 20px lightslategray;
 }
 
 .profilbild{
   border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-    margin: 0 0 0 auto;
-    box-shadow:  10px 10px 20px lightslategray;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 0 auto;
+  box-shadow:  10px 10px 20px lightslategray;
+  border: solid 2px black;
 }
 
 
 .kopfbereich {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px; 
+  display: flex;
+  align-items: flex-start;
+  gap: 40px; 
 }
 
 .kopfinhalt {
-    flex: 1;
-}
-
-.Lebenslauf{
-    background-color: rgb(198, 228, 238);
-    font-size: 25px;
-    border-radius: 10px;
-    margin: auto 0 0 0;
-    padding: 5px;
-    color: black;
-    text-decoration: none;
-    border: solid 2px black;
-    box-shadow:  10px 10px 20px lightslategray;
-    width: 400px;
-
-}
-
-.Motivationsschreiben{
-    background-color: rgb(198, 228, 238);
-    font-size: 25px;
-    border-radius: 10px;
-    margin: auto 0 0 0;
-    padding: 5px;
-    color: black;
-    text-decoration: none;
-    border: solid 2px black;
-    box-shadow:  10px 10px 20px lightslategray;
-    width: 400px;
-}
-
-.Zeugnisse-Sekundarstufe{
-    background-color: rgb(198, 228, 238);
-    font-size: 25px;
-    border-radius: 10px;
-    margin: auto 0 0 0;
-    padding: 5px;
-    color: black;
-    text-decoration: none;
-    border: solid 2px black;
-    box-shadow:  10px 10px 20px lightslategray;
-    width: 400px;
-}
-
-
-.Stellwerktest{
-    background-color: rgb(198, 228, 238);
-    font-size: 25px;
-    border-radius: 10px;
-    margin: auto 0 0 0;
-    padding: 5px;
-    color: black;
-    text-decoration: none;
-    border: solid 2px black;
-    box-shadow:  10px 10px 20px lightslategray;
-    width: 400px;
+  flex: 1;
 }
 
 
 
- .Multicheck{
-        background-color: rgb(198, 228, 238);
-        font-size: 25px;
-        border-radius: 10px;
-        margin: auto 0 0 0;
-        padding: 5px;
-        color: black;
-        text-decoration: none;
-        border: solid 2px black;
-        box-shadow:  10px 10px 20px lightslategray;
-        width: 400px;
+.button-und-kontakt {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
 
-    }
+.button-bereich {
+  flex: 2;
+}
+
+.kontakt-bereich {
+  flex: 1;
+  background: rgb(198, 228, 238); 
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow:  10px 10px 20px lightslategray;
+  font-size: 18px;
+  border: solid 2px black;
+  margin-bottom: 25px;
+}
